@@ -22,7 +22,7 @@
   log("Server log started.\n");
 
   // instantiate our bugout instance
-  var b = new Bugout({seed: localStorage["bugout-demo-server-seed"]});
+  var b = new Bugout({seed: "sameseed"});
 
   // save the seed for next time
   localStorage["bugout-demo-server-seed"] = b.seed;
